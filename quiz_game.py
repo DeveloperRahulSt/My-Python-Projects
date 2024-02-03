@@ -7,5 +7,6 @@ if ifPlaying != "yes":
 
 print("Let's begin!")
 
-quiz = ("W")
+quiz = (65*48)
+
 

@@ -54,57 +54,57 @@ print("Your guess is incorrect.")
 print("The number is", number, ".")
 
 
-if number != int(guss):
-    if_not("four")
-elif number == int(guss):
-    print("Your guss is correct!")
-    quit()
-if number != int(guss):
-    if number < int(guss):
-        print(hint1)
-    elif number > int(guss):
-        print(hint2)
-    guss = int(input("Guss the number between 1 to 50 : "))
-    if number == int(guss):
-        print("Your guss is correct!")
-        quit()
-    elif number != int(guss):
-        if_not("three")
-if number != int(guss):
-    if number < int(guss):
-        print(hint1)
-    elif number > int(guss):
-        print(hint2)
-    guss = int(input("Enter you third guss : "))
-    if number == int(guss):
-        print("Your guss is correct!")
-        quit()
-    elif number != int(guss):
-        if_not("two")
-if number != int(guss):
-    if number < int(guss):
-        print(hint1)
-    elif number > int(guss):
-        print(hint2)
-    guss = int(input("Enter you fourth guss : "))
-    if number == int(guss):
-        print("Your guss is correct!")
-        quit()
-    elif number != int(guss):
-        if_not("one")
-if number != int(guss):
-    if number < int(guss):
-        print(hint1)
-    elif number > int(guss):
-        print(hint2)
-    guss = int(input("Enter you fifth guss : "))
-    if number == int(guss):
-        print("Your guss is correct!")
-        quit()
-    else:
-        print("Game Over")
-        print("Your guss is incorrect.")
-        print("The number is", number,".")
+# if number != int(guss):
+#     if_not("four")
+# elif number == int(guss):
+#     print("Your guss is correct!")
+#     quit()
+# if number != int(guss):
+#     if number < int(guss):
+#         print(hint1)
+#     elif number > int(guss):
+#         print(hint2)
+#     guss = int(input("Guss the number between 1 to 50 : "))
+#     if number == int(guss):
+#         print("Your guss is correct!")
+#         quit()
+#     elif number != int(guss):
+#         if_not("three")
+# if number != int(guss):
+#     if number < int(guss):
+#         print(hint1)
+#     elif number > int(guss):
+#         print(hint2)
+#     guss = int(input("Enter you third guss : "))
+#     if number == int(guss):
+#         print("Your guss is correct!")
+#         quit()
+#     elif number != int(guss):
+#         if_not("two")
+# if number != int(guss):
+#     if number < int(guss):
+#         print(hint1)
+#     elif number > int(guss):
+#         print(hint2)
+#     guss = int(input("Enter you fourth guss : "))
+#     if number == int(guss):
+#         print("Your guss is correct!")
+#         quit()
+#     elif number != int(guss):
+#         if_not("one")
+# if number != int(guss):
+#     if number < int(guss):
+#         print(hint1)
+#     elif number > int(guss):
+#         print(hint2)
+#     guss = int(input("Enter you fifth guss : "))
+#     if number == int(guss):
+#         print("Your guss is correct!")
+#         quit()
+#     else:
+#         print("Game Over")
+#         print("Your guss is incorrect.")
+#         print("The number is", number,".")
         
         
 
